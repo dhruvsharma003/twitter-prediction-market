@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Prediction Market</title>
+</head>
+<body>
+    <h1>Prediction Market</h1>
+    <form method="POST" action="/submit">
+        <label for="user">Username:</label>
+        <input type="text" id="user" name="user" required><br><br>
+        <label for="event">Event:</label>
+        <input type="text" id="event" name="event" required><br><br>
+        <label for="prediction">Prediction:</label><br>
+        <textarea id="prediction" name="prediction" rows="4" cols="50" required></textarea><br><br>
+        <input type="submit" value="Submit Prediction">
+    </form>
+</body>
+</html>
